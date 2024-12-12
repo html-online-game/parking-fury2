@@ -23508,7 +23508,6 @@ function() {
                 t.url= t.url.replace("https://cdn.fbrq.io/@orange-games/splash/assets/spine/", "kizi/");
                 t.url= t.url.replace("https://cdn.fbrq.io/@orange-games/splash/assets/images/", "kizi/");
                 t.url= t.url.replace("https://cdn.fbrq.io/@orange-games/splash/assets/json/", "json/null.json?");
-                console.log("--fx--", t.url);
             }
             switch (t.type) {
             case "packfile":
@@ -32433,7 +32432,7 @@ var ParkingFury = {
     t.CALCULATED_WIDTH = 0,
     t.CALCULATED_HEIGHT = 0,
     t.INIT_WIDTH = 853,
-    t.INIT_HEIGHT = 480,
+    t.INIT_HEIGHT = 800,
     t.GAME_WIDTH = t.INIT_WIDTH,
     t.GAME_HEIGHT = t.INIT_HEIGHT,
     t.LANDSCAPE_LOCKED = !0,
